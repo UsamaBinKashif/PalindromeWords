@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    background-color: #ecc19c !important;
+    
+
+   
+}
+
+
+.navb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    color: #1e847f;
+}
+
+
+
+
+
+
+
+.main{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 40vh;
+flex-direction: column;
+
+}
+.main .hh{
+
+    color: #1e847f;
+    cursor: pointer;
+    
+
+ }
+
+
+
+
+
+
+
+input[type=text]{
+color: #1e847f;
+caret-color: #1e847f;
+padding-left: 10px;
+width: 50vh;
+height: 8vh;
+transition: 0.2s;
+-webkit-transition: 0.5s;
+box-sizing: border-box;
+border: 3px solid #fff;
+  outline: none;
+  margin-bottom: 2%;
+}
+input[type=text]:focus{
+    border: 3px solid #1e847f;
+    width: 50vh;
+    height: 8vh;
+}
+
+
+.spansss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #1e847f;
+}
+
+
+
+
+
+
+.btn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.btn1 a{
+cursor: pointer;
+text-decoration: none;
+border: 3px solid #fff;
+color: #1e847f !important;
+padding: 2px;
+
+
+}
+.btn1 a:hover{
+    color: #fff !important;
+}
+
+.fooot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    color: #1e847f;
+}
+
+.icospan a{
+    color: #fff !important;
+}
+
+.icospan a .f:hover{
+color: royalblue;
+}
+.icospan a .in:hover{
+    color: rgb(196, 36, 89);
+    }
+    .icospan a .gi:hover{
+        color: black;
+        }
+
+
+        @media only screen and (max-width: 600px){
+            input[type=text]{
+                width: 40vh ;
+                height: 6vh;
+            }
+
+            input[type=text]:focus{
+                width: 60vh;
+                height: 10vh;
+            }
+        .fooot{
+            margin-top: 20%;
+        }
+        .main .hh{
+font-size: 12px;
+        }
+        .spansss{
+            font-size: 12px;
+            margin-top: -12%;
+        }
+        
+        }
